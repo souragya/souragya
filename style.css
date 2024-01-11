@@ -1,0 +1,60 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #e35757;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tablinks {
+    background-color: #e15e5e;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.chart-container {
+    width: 80%;
+    margin: 20px auto;
+}
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
